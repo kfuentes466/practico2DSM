@@ -2,4 +2,6 @@
     <string name="app_name">The Salon</string>
 
     <string name="slogan">The best way to be okay!</string>
+    <string name="loginInstruction">Para seguir con el servicio de la aplicación es necesario Iniciar sesión!</string>
+    <string name="loginGoogle">Iniciar sesión con google</string>
 </resources>
