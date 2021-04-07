@@ -23,4 +23,10 @@ public class mainMenu extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void seeReports(View view){
+        Intent intent = new Intent(this,lastServices.class);
+        startActivity(intent);
+        finish();
+    }
 }

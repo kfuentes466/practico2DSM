@@ -157,7 +157,8 @@
                         android:elevation="4dp"
                         android:orientation="vertical"
                         tools:targetApi="lollipop"
-                        android:id="@+id/btnReports">
+                        android:id="@+id/btnReports"
+                        android:onClick="seeReports">
 
                         <ImageView
                             android:layout_width="wrap_content"

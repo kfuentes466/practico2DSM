@@ -30,4 +30,7 @@
     <string name="opcion10AddDate">Maquillaje</string>
     <string name="apartAddDate">Hacer cita</string>
     <string name="cancel">Cancelar</string>
+
+    <string name="titleServicesOffered">Historial servicios recibidos</string>
+    <string name="back">Regresar</string>
 </resources>
