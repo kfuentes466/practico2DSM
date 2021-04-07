@@ -20,4 +20,9 @@
         <item name="android:background">?android:attr/listDivider</item>
     </style>
 
+    <style name="radioButtons" parent="Theme.MaterialComponents">
+        <item name="colorOnSurface">@color/titles</item>
+        <item name="colorSecondary">@color/titles</item>
+    </style>
+
 </resources>

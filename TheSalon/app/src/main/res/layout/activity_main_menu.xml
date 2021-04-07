@@ -120,7 +120,8 @@
                         android:padding="8dp"
                         android:elevation="4dp"
                         tools:targetApi="lollipop"
-                        android:id="@+id/btnAdd">
+                        android:id="@+id/btnAdd"
+                        android:onClick="addDate">
 
                         <ImageView
                             android:layout_width="wrap_content"

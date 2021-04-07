@@ -2,6 +2,7 @@ package sv.edu.udb.thesalon;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -14,5 +15,12 @@ public class mainMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main_menu);
+    }
+
+    //go to addDate1
+    public void addDate(View view){
+        Intent intent = new Intent(getApplicationContext(), addDate1.class);
+        startActivity(intent);
+        finish();
     }
 }

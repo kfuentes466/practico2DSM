@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="appBase">#fee2d0</color>
+    <color name="titles">#1c3ba1</color>
 </resources>

@@ -11,4 +11,23 @@
     <string name="reportsMM">Ver reportes</string>
     <string name="catalogueMM">Servicios Ofrecidos</string>
     <string name="exit">Cerrar sesión</string>
+
+    <string name="titleAddDate">Agendar cita</string>
+    <string name="userAddDate">Usuario</string>
+    <string name="hourAddDate">Elija la hora deseada</string>
+    <string name="serviceSelectionAddDate">Selecciona el servicio a realizar</string>
+    <string name="dateSelectionAddDate">Selecciona la fecha</string>
+    <string name="descriptionAddDate">Observaiones adicionales</string>
+    <string name="opcion1AddDate">Corte de pelo</string>
+    <string name="opcion2AddDate">Tratamientos capilares</string>
+    <string name="opcion3AddDate">Alisados</string>
+    <string name="opcion4AddDate">Recogidos</string>
+    <string name="opcion5AddDate">Mechas</string>
+    <string name="opcion6AddDate">Desrizados</string>
+    <string name="opcion7AddDate">Peinados de fiesta</string>
+    <string name="opcion8AddDate">Baños de color</string>
+    <string name="opcion9AddDate">Moldeados</string>
+    <string name="opcion10AddDate">Maquillaje</string>
+    <string name="apartAddDate">Hacer cita</string>
+    <string name="cancel">Cancelar</string>
 </resources>
