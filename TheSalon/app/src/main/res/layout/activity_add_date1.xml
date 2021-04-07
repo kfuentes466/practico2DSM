@@ -96,111 +96,137 @@
             android:textSize="14sp"
             android:textAllCaps="true"/>
 
-        <ScrollView
+        <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:padding="10dp"
-            android:background="@drawable/border_rad"
+            android:layout_height="170dp"
+            android:layout_margin="5dp"
             android:layout_marginTop="5dp"
-            android:layout_margin="5dp">
+            android:background="@drawable/border_rad"
+            android:padding="10dp">
 
             <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-                <RadioButton
-                    android:id="@+id/rbtOpcion1"
-                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/opcion1AddDate"
-                    android:fontFamily="@font/arvo"
-                    android:textSize="12sp"
-                    style="@style/radioButtons"/>
+                    android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/rbtOpcion2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/opcion2AddDate"
-                    android:fontFamily="@font/arvo"
-                    android:textSize="12sp"
-                    style="@style/radioButtons"/>
+                    <RadioButton
+                        android:id="@+id/rbtOpcion1"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion1AddDate"
+                        android:textSize="12sp" />
 
-                <RadioButton
-                    android:id="@+id/rbtOpcion3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/opcion3AddDate"
-                    android:fontFamily="@font/arvo"
-                    android:textSize="12sp"
-                    style="@style/radioButtons"/>
+                    <RadioButton
+                        android:id="@+id/rbtOpcion2"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion2AddDate"
+                        android:textSize="12sp" />
 
-                <RadioButton
-                    android:id="@+id/rbtOpcion4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/opcion4AddDate"
-                    android:fontFamily="@font/arvo"
-                    android:textSize="12sp"
-                    style="@style/radioButtons"/>
+                    <RadioButton
+                        android:id="@+id/rbtOpcion3"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion3AddDate"
+                        android:textSize="12sp" />
 
-                <RadioButton
-                    android:id="@+id/rbtOpcion5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/opcion5AddDate"
-                    android:fontFamily="@font/arvo"
-                    android:textSize="12sp"
-                    style="@style/radioButtons"/>
+                </LinearLayout>
 
-                <RadioButton
-                    android:id="@+id/rbtOpcion6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/opcion6AddDate"
-                    android:fontFamily="@font/arvo"
-                    android:textSize="12sp"
-                    style="@style/radioButtons"/>
 
-                <RadioButton
-                    android:id="@+id/rbtOpcion7"
-                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/opcion7AddDate"
-                    android:fontFamily="@font/arvo"
-                    android:textSize="12sp"
-                    style="@style/radioButtons"/>
+                    android:orientation="vertical">
 
-                <RadioButton
-                    android:id="@+id/rbtOpcion8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/opcion8AddDate"
-                    android:fontFamily="@font/arvo"
-                    android:textSize="12sp"
-                    style="@style/radioButtons"/>
+                    <RadioButton
+                        android:id="@+id/rbtOpcion4"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion4AddDate"
+                        android:textSize="12sp" />
 
-                <RadioButton
-                    android:id="@+id/rbtOpcion9"
-                    android:layout_width="match_parent"
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion5"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion5AddDate"
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion6"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion6AddDate"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/opcion9AddDate"
-                    android:fontFamily="@font/arvo"
-                    android:textSize="12sp"
-                    style="@style/radioButtons"/>
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion7"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion7AddDate"
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion8"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion8AddDate"
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion9"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion9AddDate"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+
 
                 <RadioButton
                     android:id="@+id/rbtOpcion10"
+                    style="@style/radioButtons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/opcion10AddDate"
                     android:fontFamily="@font/arvo"
-                    android:textSize="12sp"
-                    style="@style/radioButtons"/>
+                    android:text="@string/opcion10AddDate"
+                    android:textSize="12sp" />
 
             </RadioGroup>
 
-        </ScrollView>
+        </HorizontalScrollView>
 
         <LinearLayout
             android:layout_width="match_parent"

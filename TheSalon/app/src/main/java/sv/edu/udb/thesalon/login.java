@@ -28,7 +28,7 @@ public class login extends AppCompatActivity {
     }
 
     public void login(View view){
-        Intent intent = new Intent(getApplicationContext(), mainMenu.class);
+        Intent intent = new Intent(this, mainMenu.class);
         Pair[] pairs = new Pair[2];
         pairs[0] = new Pair<View, String>(imgvLogo, "logo_transition");
         pairs[1] = new Pair<View, String>(txtvAppName, "appName_transition");

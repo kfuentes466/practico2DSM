@@ -66,7 +66,7 @@ public class addDate1 extends AppCompatActivity {
     }
 
     public void back(View view){
-        Intent intent = new Intent(getApplicationContext(), mainMenu.class);
+        Intent intent = new Intent(this, mainMenu.class);
         startActivity(intent);
         finish();
     }

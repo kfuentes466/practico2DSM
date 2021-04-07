@@ -19,7 +19,7 @@ public class mainMenu extends AppCompatActivity {
 
     //go to addDate1
     public void addDate(View view){
-        Intent intent = new Intent(getApplicationContext(), addDate1.class);
+        Intent intent = new Intent(this, addDate1.class);
         startActivity(intent);
         finish();
     }
