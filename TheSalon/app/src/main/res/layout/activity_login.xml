@@ -21,6 +21,7 @@
             android:layout_marginTop="50dp">
 
             <ImageView
+                android:id="@+id/imgvLogos"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="150dp"
@@ -29,6 +30,7 @@
                 />
 
             <TextView
+                android:id="@+id/txtvAppNames"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
@@ -70,6 +72,7 @@
                 android:fontFamily="@font/arvo"
                 android:backgroundTint="#cb2027"
                 app:cornerRadius="10dp"
+                android:onClick="login"
                 />
 
 

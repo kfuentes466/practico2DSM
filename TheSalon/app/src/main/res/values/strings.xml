@@ -4,4 +4,11 @@
     <string name="slogan">The best way to be okay!</string>
     <string name="loginInstruction">Para seguir con el servicio de la aplicación es necesario Iniciar sesión!</string>
     <string name="loginGoogle">Iniciar sesión con google</string>
+
+    <string name="userMainMenu">usuario : </string>
+    <string name="descriptionImage">Logo en blanco y negro de la app</string>
+    <string name="addDateMM">Agregar cita</string>
+    <string name="reportsMM">Ver reportes</string>
+    <string name="catalogueMM">Servicios Ofrecidos</string>
+    <string name="exit">Cerrar sesión</string>
 </resources>
