@@ -205,7 +205,8 @@
                         android:padding="8dp"
                         android:elevation="4dp"
                         tools:targetApi="lollipop"
-                        android:id="@+id/btncatalogue">
+                        android:id="@+id/btncatalogue"
+                        android:onClick="goCatalogue">
 
                         <ImageView
                             android:layout_width="wrap_content"

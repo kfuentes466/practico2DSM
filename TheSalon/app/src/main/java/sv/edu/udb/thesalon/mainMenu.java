@@ -29,4 +29,10 @@ public class mainMenu extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void goCatalogue(View view){
+        Intent intent = new Intent(this, catalogue.class);
+        startActivity(intent);
+        finish();
+    }
 }
